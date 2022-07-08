@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+.registracijosDivas{
+    background-color: #333;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 600px;
+    position: relative;
+    overflow: hidden;
+}
+.registracijosDivas form{
+    margin-top: 80px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.registracijosDivas h1{
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.registracijosDivas label{
+    color: white;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.registracijosDivas input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: rgb(1, 150, 150);
+    height: 30px;
+    margin: 0 10%;
+    width: 80%;
+}
+.registracijosDivas button{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid gray;
+    color: white;
+    cursor: pointer;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3rem;
+    position: absolute;
+    right: 10%;
+    bottom: 20px;
+}
+.registracijosDivas button:disabled{
+   color: rgb(32, 32, 32);
+   border-bottom: 1px solid rgb(32, 32, 32);
+}

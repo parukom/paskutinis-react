@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+.addGifSection{
+    font-family: 'Cormorant Garamond', serif;
+    height: calc(100vh - 50px);
+    position: relative;
+    background-image: url('./welcomeBackground.gif');
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.blurrBackas{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.34);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index:0;
+}
+.addGifMainDiv {
+    background-color: #333;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 600px;
+    overflow: hidden;
+    z-index: 5 ;
+    position: relative;
+}
+.addGifMainDiv form{
+    margin: 30px;
+}
+.addGifMainDiv h1 {
+    color: white;
+    margin: 30px;
+}
+.addGifMainDiv label{
+    color: wheat;
+}
+.addGifMainDiv input{
+    border: none;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 530px;
+}
+.form button {
+    background-color: transparent;
+    border: 1px solid gray;
+    color: white;
+    padding: 5px;
+    width: 100px;
+}
+.isjungti{
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: 1.3rem;
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 30px;
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+/* before logged in */
+.homeMainSection{
+    background-image: url('./greenBackground.gif');
+    background-size: cover;
+    height: calc(100vh - 50px);
+    margin: 0 auto;
+    overflow: hidden;
+}
+.homeMainSection h1 {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 6rem;
+    color: wheat;
+}
+
+.span1, .span2{
+    text-decoration: none;
+}
+.span1{
+    color: green;   
+}
+.span2{
+    color: blue;
+}
+/* logged in home */
+
+.homeLoggedInSection{
+    background-image: url('./welcomeBackground.gif');
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - 50px);
+    overflow: hidden;
+}
+.homeLoggedInSection h2 {
+    color: rgb(238, 0, 255);
+    font-size: 5rem;
+    line-height: 0;
+    text-align: right;
+}
+/* zaidimai su papildomais dalykais  */
+
+.homeMidDiv{
+    height: calc(100vh - 50px);
+    margin: 0 auto;
+    overflow: scroll;
+    width: 1060px;
+}
+.gifukai{
+    background-color: rgba(255, 255, 255, 0.81);
+    border: 1px solid rgb(184, 183, 183);
+    margin: 5px;
+    width: 200px;
+}
+.gifukai img {
+    width: 200px;
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+.navigacija{
+    background-color: #333;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.navValdymas{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    float: right;
+    height: 50px;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+.navValdymas:hover{
+    color: rgb(0, 150, 150);
+    transition: 0.3s;
+    text-decoration: underline;
+}
+.home{
+    font-family: 'Cormorant Garamond', serif;
+    margin: 10px 0 0 20px;
+}
